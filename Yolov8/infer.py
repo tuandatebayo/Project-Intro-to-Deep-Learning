@@ -4,8 +4,8 @@ import os
 import matplotlib.pyplot as plt
 import cv2
 
-model = YOLO('yolo_model.pt')
-path = 'Data\image-for-infer.jpg'
+model = YOLO('Project-Intro-to-Deep-Learning\Yolov8\yolo_model.pt')
+path = 'Project-Intro-to-Deep-Learning\Data\image-for-infer.jpg'
 results = model.predict(path, imgsz=640, conf=0.5)
 for r in results:
     cls = r.boxes.cls
