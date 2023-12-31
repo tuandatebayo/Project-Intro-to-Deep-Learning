@@ -17,7 +17,6 @@ And clone this project to your pc by using the following cmd:
 #### Data:
 - Pascal VOC 2012 (trainval): ```http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar```
 - Pascal VOC 2007 (test): ```https://github.com/ultralytics/yolov5/releases/download/v1.0/VOCtest_06-Nov-2007.zip```
-For the data for yolov8, you should download our zip file in google drive (VOC2012Data.zip) or using our code (splittrainval, transformcoordinates) to transform the original dataset
 
 ## Training:
 #### Yolov8
