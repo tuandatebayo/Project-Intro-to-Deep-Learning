@@ -8,8 +8,11 @@
 - ***tqdm***
 
 Install all required libraries by using the following cmd:
+
 ```pip install -r requirement.txt```
+
 And clone this project to your pc by using the following cmd:
+
 ``` git clone https://github.com/tuandatebayo/Project-Intro-to-Deep-Learning.git ```
 #### Data:
 - Pascal VOC 2012 (trainval): ```http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar```
